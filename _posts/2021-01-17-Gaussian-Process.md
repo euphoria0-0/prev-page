@@ -471,7 +471,7 @@ $$
 
 ## **3. Hyper-parameter**
 
-GPR에서 어떤 파라미터의 형태를 찾아보기는 어렵습니다. kernel function만 정의하면 되기 때문입니다. 하지만 kernel function 안에 들어가있는 hyper-parameter에 대한 값은 정해주어야 합니다. 이 hyper-parameter를 학습하기 위한 다양한 방법 중 여기서는 *marginal likelihood* 방법을 사용합니다. MLE에서 likelihood 를 최대화 하듯이, GPR에서는 Hyper parameter에 대한 'marginal' likelihood  $$p(\mathbf{y}|\theta)$$를 최대화 합니다.
+GPR에서 어떤 파라미터의 형태를 찾아보기는 어렵습니다. kernel function만 정의하면 되기 때문입니다. 하지만 kernel function 안에 들어가있는 hyper-parameter에 대한 값은 정해주어야 합니다. 이 hyper-parameter를 학습하기 위한 다양한 방법 중 여기서는 *marginal likelihood* 방법을 사용합니다. MLE에서 likelihood 를 최대화 하듯이, GPR에서는 Hyper parameter에 대한 'marginal' likelihood $p(\mathbf{y}|\theta)$ 를 최대화 합니다.
 
 
 
