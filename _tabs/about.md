@@ -35,9 +35,11 @@ I believe it’s the key factor for better AI and can be achieved by understandi
 
 ### Contact
 [![CV](https://img.shields.io/badge/CV-green.svg)](/assets/files/CV.pdf)
-[![Badge](https://img.shields.io/badge/Gmail-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:suyeong.park0@gmail.com)](mailto:suyeong.park0@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:suyeong.park0@gmail.com)](mailto:suyeong.park0@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sy-p-782a62187//)](https://www.linkedin.com/in/sy-p-782a62187/) 
 [![GitHub Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/euphoria0-0)](https://github.com/euphoria0-0)
+[![G.Scholar Badge](https://img.shields.io/badge/-Google Scholar-blue)]([https://github.com/euphoria0-0](https://scholar.google.com/citations?hl=ko&user=-pQY91AAAAAJ))
+
 
 
 
