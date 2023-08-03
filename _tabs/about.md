@@ -41,7 +41,7 @@ I believe it’s the key factor for better AI and can be achieved by understandi
 [![GScholar Badge](https://img.shields.io/badge/-Google%20Scholar-blue)](https://scholar.google.com/citations?user=-pQY91AAAAAJ&hl=ko)
 
 
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Feuphoria0-0.github.io%2Ftabs%2Fabout%2F&count_bg=%2303324C&title_bg=%2303324C&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 Thank you for your interest.
 
