@@ -17,19 +17,18 @@ order: 4
 # Suyeong Park
 ### About me
 
-My name is Suyeong Park (박수영; Su-yeong). I'm a alumni from UNIST (Ulsan National Institute of Science and Technology) and UoS (University of Seoul). I studied Machine Learning and Statistics.
+I'm Suyeong Park (박수영 in Korean; pronounced as Su-yeong). I received a BSc degree in Statistics and Data Science from University of Seoul (UoS), and an MSc degree in Artificial Intelligence from Ulsan National Institute of Science and Technology (UNIST). My research interests include trustworthy AI for real-world applications, especially causal inference.
 
 
 ### Principles
-I'm enthusiatstic to solve various problems around us using information of data, representation of machanisms using ML, and knowledge of human-beings. 
+I'm enthusiatstic to solve various problems around us using information of data, representation of machanisms using machine learning, and knowledge of human-beings. 
 I believe that AI and human should interact to solve some problems, not AI algorithms only.
 We should note the role of AI and would use that toward better worlds, hopefully.
 
 ### Research Interests
-I've focused on 'what information we need between exploration and exploitation' which is called active learning in machine learning field. 
-To slove this question, I've studied Bayesian approach for uncertainty estimation. 
-Currently, I want to focus on 'understanding an intrinsic attributes better using human-beings knowledge' is crucial for deploying our machine learning models in a real-world for better human-beings life. 
-I believe it’s the key factor for better AI and can be achieved by understanding causality of things.
+I've focused on a research question, 'what information we need between exploration and exploitation' dealt with in machine learning field including active learning and studied Bayesian approach.
+I believe 'understanding an intrinsic attributes of things and their interactions using our knowledge' is crucial for utilizing machine learning models in real-world for better human-being life can be achieved by understanding causality of things.
+Thus, I'm currently focusing on identifying __Causality__ implied on data for more reliable ML models.
 
 
 
@@ -49,4 +48,4 @@ Thank you for your interest.
 
 
 
-*Last Updated: September 18, 2022*
+*Last Updated: January 7, 2024*
