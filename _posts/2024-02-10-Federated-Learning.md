@@ -24,13 +24,15 @@ Fig 2. Google Gboard 연합학습 예시 (source: [link](https://ai.googleblog.c
 ![Fig 3](/assets/img/posts/2024-02-10/FL_ex2.png)
 Fig 3. 병원 협력 연합학습 예시 (source: [link](https://www.technologyreview.com/2019/12/11/131629/apple-ai-personalizes-siri-federated-learning/))
 
+## Problem Statement
+
+Federated Learning에서는 communication(서버와 클라이언트 간 정보 전송)을 효율적으로 적게 하는 것(communication-efficient)이 privacy-preserving과 함께 중요한 목표입니다. 정보를 최대한 적게 주고 받음으로써 정보 전송 시 발생하는 cost를 최대한 줄이면서도 좋은 모델을 만들어야 합니다.
+
+### Challenges
+
 연합학습은 그 실용성 때문에 굉장히 현실적인 상황들을 가정합니다. 먼저, 학습에 참여하는 클라이언트들은 굉장히 많거나 (cross-device setting), 각자의 집단적 특징들이 다를 수 있기 때문에 (cross-silo setting), 클라이언트 간 데이터의 특성이 다를 수 있습니다. 즉, 데이터가 같은 분포로부터 독립적으로 생성되었다는 I.I.D. 가정을 파괴합니다. 이 가정은 일반적인 머신러닝에서 굉장히 중요하며 일반적으로 만족함을 가정하므로 이 가정이 파괴된 상황에선 이를 잘 고려하고 머신러닝 연합학습 모델을 만들어야 합니다. 이를 statistical heterogeneity라고 합니다.
 
 또 다른 현실적인 가정은 각 클라이언트가 가진 하드웨어, 소프트웨어, 네트워크 등이 모두 달라 발생할 수 있는 문제점을 말합니다. 클라이언트들이 학습에 참여하기 위해 중앙 서버의 네트워크에 연결하고자 하면, 네트워크 bandwidth의 한계로 모든 클라이언트들이 참여하지 못할 수 있습니다. 혹은 인터넷 연결 상황이 좋지 않아 비동시적 (asynchronous)인 학습을 해야하거나, 각 클라이언트가 가진 학습 리소스가 달라 학습 성능이 서로 굉장히 다를 수 있습니다. 이를 system heterogeneity라고 합니다.
-
-## Problem Statement
-
-Federated Learning에서는 communication(서버와 클라이언트 간 정보 전송)을 효율적으로 적게 하는 것(communication-efficient)이 privacy-preserving과 함께 중요한 목표입니다. 정보를 최대한 적게 주고 받음으로써 정보 전송 시 발생하는 cost를 최대한 줄이면서도 좋은 모델을 만들고자 하며, statistical & system heterogeneity 문제를 고려해야 합니다.
 
 # Problem Formulation
 
